@@ -26,5 +26,9 @@
         "dist/ponyracer-lib/*"
       ]
     }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
   }
 }
