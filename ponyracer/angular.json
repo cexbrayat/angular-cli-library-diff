@@ -4,9 +4,9 @@
   "newProjectRoot": "projects",
   "projects": {
     "ponyracer-lib": {
+      "projectType": "library",
       "root": "projects/ponyracer-lib",
       "sourceRoot": "projects/ponyracer-lib/src",
-      "projectType": "library",
       "prefix": "lib",
       "architect": {
         "build": {
@@ -37,7 +37,6 @@
           }
         }
       }
-    }
-  },
+    }},
   "defaultProject": "ponyracer-lib"
 }
