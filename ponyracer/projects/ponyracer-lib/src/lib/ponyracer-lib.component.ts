@@ -13,7 +13,7 @@ export class PonyracerLibComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
 }
