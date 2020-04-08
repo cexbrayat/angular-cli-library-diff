@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
     </p>
   `,
   styles: [
-  ],
+  ]
 })
 export class PonyracerLibComponent implements OnInit {
 
