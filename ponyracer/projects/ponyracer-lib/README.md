@@ -1,6 +1,6 @@
 # PonyracerLib
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
 
 ## Code scaffolding
 
