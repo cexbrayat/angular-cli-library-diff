@@ -99,7 +99,7 @@ NEWLINE/g' README.md && rm README.md.bak
   # delete app
   rm -rf ponyracer
   # generate lib with new CLI version
-  npx @angular/cli@${version} new ponyracer --no-interactive --no-create-application
+  npx @angular/cli@${version} new ponyracer --no-interactive --no-create-application --strict
   cd ponyracer
   npx @angular/cli@${version} generate library ponyracer-lib --skip-install --no-interactive
   rm package-lock.json
