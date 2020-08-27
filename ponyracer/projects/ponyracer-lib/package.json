@@ -2,8 +2,8 @@
   "name": "ponyracer-lib",
   "version": "0.0.1",
   "peerDependencies": {
-    "@angular/common": "^10.0.11",
-    "@angular/core": "^10.0.11"
+    "@angular/common": "^10.0.14",
+    "@angular/core": "^10.0.14"
   },
   "dependencies": {
     "tslib": "^2.0.0"
