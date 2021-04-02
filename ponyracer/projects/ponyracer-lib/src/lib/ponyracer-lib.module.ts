@@ -4,9 +4,13 @@ import { PonyracerLibComponent } from './ponyracer-lib.component';
 
 
 @NgModule({
-  declarations: [PonyracerLibComponent],
+  declarations: [
+    PonyracerLibComponent
+  ],
   imports: [
   ],
-  exports: [PonyracerLibComponent]
+  exports: [
+    PonyracerLibComponent
+  ]
 })
 export class PonyracerLibModule { }
