@@ -11,9 +11,7 @@ describe('PonyracerLibComponent', () => {
       declarations: [ PonyracerLibComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(PonyracerLibComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
