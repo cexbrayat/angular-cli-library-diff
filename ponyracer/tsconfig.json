@@ -18,7 +18,6 @@
     "importHelpers": true,
     "paths": {
       "ponyracer-lib": [
-        "dist/ponyracer-lib/ponyracer-lib",
         "dist/ponyracer-lib"
       ]
     },
