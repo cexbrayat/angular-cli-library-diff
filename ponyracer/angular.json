@@ -27,8 +27,11 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ponyracer-lib/src/test.ts",
             "tsConfig": "projects/ponyracer-lib/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ],
             "karmaConfig": "projects/ponyracer-lib/karma.conf.js"
           }
         }
