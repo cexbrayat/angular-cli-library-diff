@@ -31,8 +31,7 @@
             "polyfills": [
               "zone.js",
               "zone.js/testing"
-            ],
-            "karmaConfig": "projects/ponyracer-lib/karma.conf.js"
+            ]
           }
         }
       }
