@@ -6,12 +6,10 @@ describe('PonyracerLibComponent', () => {
   let component: PonyracerLibComponent;
   let fixture: ComponentFixture<PonyracerLibComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ PonyracerLibComponent ]
-    })
-    .compileComponents();
-
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [PonyracerLibComponent]
+    });
     fixture = TestBed.createComponent(PonyracerLibComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
