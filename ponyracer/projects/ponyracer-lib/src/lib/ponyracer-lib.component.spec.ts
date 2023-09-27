@@ -8,7 +8,7 @@ describe('PonyracerLibComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [PonyracerLibComponent]
+      imports: [PonyracerLibComponent]
     });
     fixture = TestBed.createComponent(PonyracerLibComponent);
     component = fixture.componentInstance;
