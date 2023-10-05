@@ -2,7 +2,6 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -19,7 +18,7 @@
     "importHelpers": true,
     "paths": {
       "ponyracer-lib": [
-        "dist/ponyracer-lib"
+        "./dist/ponyracer-lib"
       ]
     },
     "target": "ES2022",
