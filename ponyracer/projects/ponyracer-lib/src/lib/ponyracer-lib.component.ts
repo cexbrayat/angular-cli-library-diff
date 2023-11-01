@@ -10,8 +10,7 @@ import { CommonModule } from '@angular/common';
       ponyracer-lib works!
     </p>
   `,
-  styles: [
-  ]
+  styles: ``
 })
 export class PonyracerLibComponent {
 
