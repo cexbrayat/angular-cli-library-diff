@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'lib-ponyracer-lib',
   standalone: true,
-  imports: [CommonModule],
+  imports: [],
   template: `
     <p>
       ponyracer-lib works!
