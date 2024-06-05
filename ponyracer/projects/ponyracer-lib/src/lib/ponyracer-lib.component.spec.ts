@@ -11,7 +11,7 @@ describe('PonyracerLibComponent', () => {
       imports: [PonyracerLibComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(PonyracerLibComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
