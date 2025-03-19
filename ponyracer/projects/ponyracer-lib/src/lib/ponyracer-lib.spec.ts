@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PonyracerLibComponent } from './ponyracer-lib.component';
+import { PonyracerLib } from './ponyracer-lib';
 
-describe('PonyracerLibComponent', () => {
-  let component: PonyracerLibComponent;
-  let fixture: ComponentFixture<PonyracerLibComponent>;
+describe('PonyracerLib', () => {
+  let component: PonyracerLib;
+  let fixture: ComponentFixture<PonyracerLib>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PonyracerLibComponent]
+      imports: [PonyracerLib]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PonyracerLibComponent);
+    fixture = TestBed.createComponent(PonyracerLib);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
