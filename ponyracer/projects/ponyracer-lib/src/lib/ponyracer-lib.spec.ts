@@ -14,7 +14,7 @@ describe('PonyracerLib', () => {
 
     fixture = TestBed.createComponent(PonyracerLib);
     component = fixture.componentInstance;
-    fixture.detectChanges();
+    await fixture.whenStable();
   });
 
   it('should create', () => {
