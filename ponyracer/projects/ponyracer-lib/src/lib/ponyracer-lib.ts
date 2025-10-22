@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
       ponyracer-lib works!
     </p>
   `,
-  styles: ``
+  styles: ``,
 })
 export class PonyracerLib {
 
