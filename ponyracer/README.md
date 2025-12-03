@@ -1,6 +1,6 @@
 # Ponyracer
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.12.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.13.
 
 ## Development server
 
