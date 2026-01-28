@@ -12,9 +12,7 @@
     "isolatedModules": true,
     "experimentalDecorators": true,
     "paths": {
-      "ponyracer-lib": [
-        "./dist/ponyracer-lib"
-      ]
+      "ponyracer-lib": ["./dist/ponyracer-lib"]
     },
     "importHelpers": true,
     "target": "ES2022",
