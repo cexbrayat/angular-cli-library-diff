@@ -8,9 +8,8 @@ describe('PonyracerLib', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PonyracerLib]
-    })
-    .compileComponents();
+      imports: [PonyracerLib],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(PonyracerLib);
     component = fixture.componentInstance;
