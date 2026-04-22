@@ -3,7 +3,6 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
@@ -11,10 +10,10 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "experimentalDecorators": true,
+    "importHelpers": true,
     "paths": {
       "ponyracer-lib": ["./dist/ponyracer-lib"]
     },
-    "importHelpers": true,
     "target": "ES2022",
     "module": "preserve"
   },
