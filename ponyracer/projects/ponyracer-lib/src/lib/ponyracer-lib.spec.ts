@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { PonyracerLib } from './ponyracer-lib';
 
 describe('PonyracerLib', () => {
