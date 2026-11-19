@@ -9,17 +9,19 @@
     "ponyracer-lib": {
       "projectType": "library",
       "root": "projects/ponyracer-lib",
-      "sourceRoot": "projects/ponyracer-lib/src",
+      "sourceRoot": "projects/ponyracer-lib",
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular/build:ng-packagr",
+          "builder": "@angular/build:library",
+          "options": {
+            "tsConfig": "projects/ponyracer-lib/tsconfig.lib.json"
+          },
           "configurations": {
-            "production": {
-              "tsConfig": "projects/ponyracer-lib/tsconfig.lib.prod.json"
-            },
+            "production": {},
             "development": {
-              "tsConfig": "projects/ponyracer-lib/tsconfig.lib.json"
+              "compilationMode": "full",
+              "declarationMap": true
             }
           },
           "defaultConfiguration": "production"
